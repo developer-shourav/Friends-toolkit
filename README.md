@@ -62,42 +62,42 @@
 ### 20. How does React handle component re-rendering and performance optimization?
 ***Answer:***  React uses a diffing algorithm to efficiently update only the necessary parts of the DOM when a component's state or props change. Developers can optimize performance using techniques like memoization and shouldComponentUpdate.
 
-### 1. What are the advantages of using a NoSQL database like MongoDB?
+### 21. What are the advantages of using a NoSQL database like MongoDB?
 ***Answer:***  NoSQL databases like MongoDB offer flexibility in schema design, scalability, and high-performance handling of large amounts of data. They are well-suited for handling unstructured or rapidly changing data.
 
-### 1. How does React Router work for client-side routing in a React application?
+### 22. How does React Router work for client-side routing in a React application?
 ***Answer:***  React Router is a library that enables client-side routing in a React application. It uses declarative routing, allowing developers to define routes and render components based on the current URL.
 
-### 1. Can you explain the concept of RESTful API authentication and different authentication methods?
+### 23. Can you explain the concept of RESTful API authentication and different authentication methods?
 ***Answer:***  RESTful API authentication involves verifying the identity of API users. Common authentication methods include API keys, token-based authentication (like JWT), and OAuth for third-party authentication.
 
-### 1. What is the purpose of CORS (Cross-Origin Resource Sharing) and how does it work?
+### 24. What is the purpose of CORS (Cross-Origin Resource Sharing) and how does it work?
 ***Answer:***  CORS is a security mechanism that allows servers to specify which origins are allowed to access their resources. It prevents unauthorized cross-origin requests and helps protect sensitive data.
 
-### 1. Can you explain the concept of promises in JavaScript and how they are used for asynchronous operations?
+### 25. Can you explain the concept of promises in JavaScript and how they are used for asynchronous operations?
 ***Answer:***  Promises are objects representing the eventual completion or failure of an asynchronous operation. They provide a way to handle asynchronous code in a more readable and manageable way.
 
-### 1. How does React handle error boundaries and error handling in components?
+### 26. How does React handle error boundaries and error handling in components?
 ***Answer:***  React allows the creation of error boundaries, components that
 
 handle errors that occur in their child components. Error boundaries catch and handle errors to prevent the entire application from crashing. Developers can implement error boundaries using the componentDidCatch lifecycle method and display fallback UI or log errors for debugging purposes.
 
-### 1. Can you explain the concept of JWT (JSON Web Tokens) and their usage in authentication?
+### 27. Can you explain the concept of JWT (JSON Web Tokens) and their usage in authentication?
 ***Answer:***  JWT is an open standard for securely transmitting information between parties as a JSON object. They are commonly used for authentication by generating a token containing user-specific data, which is then sent to the client and included in subsequent requests for authentication and authorization purposes.
 
-### 1. What is the purpose of Redux in a React application, and when would you use it?
+### 28. What is the purpose of Redux in a React application, and when would you use it?
 ***Answer:***  Redux is a state management library for JavaScript applications, commonly used with React. It helps manage the global state of an application, making it easier to share data between components and manage complex application states. Redux is particularly useful in large-scale applications with a lot of shared state and complex data flows.
 
-### 1. How does React handle forms and form validation?
+### 29. How does React handle forms and form validation?
 ***Answer:***  React provides several techniques for handling forms and form validation. Developers can use controlled components, where the form inputs are controlled by React state, allowing for validation and handling user input. Additionally, libraries like Formik and Yup provide tools and utilities for managing form state and validation in a more structured way.
 
-### 1. Can you explain the concept of higher-order components (HOCs) in React?
+### 30. Can you explain the concept of higher-order components (HOCs) in React?
 ***Answer:***  Higher-order components are functions that take a component and return a new component with additional functionality. HOCs are useful for code reuse, cross-cutting concerns like authentication and authorization, and manipulating component behavior without modifying the underlying component's source code.
 
-### 1. How does React handle key concepts like reconciliation and the virtual DOM to optimize rendering performance?
+### 31. How does React handle key concepts like reconciliation and the virtual DOM to optimize rendering performance?
 ***Answer:***  React's reconciliation algorithm is responsible for efficiently updating the UI by comparing the virtual DOM representation of the previous and current states of a component. By minimizing actual DOM updates to only the necessary changes, React optimizes rendering performance and ensures efficient UI updates.
 
-### 1. Can you explain the concept of GraphQL and how it differs from traditional REST APIs?
+### 32. Can you explain the concept of GraphQL and how it differs from traditional REST APIs?
 ***Answer:***  GraphQL is a query language for APIs and a runtime for executing those queries with existing data. Unlike traditional REST APIs, GraphQL allows clients to request only the specific data they need, reducing over-fetching and under-fetching of data. It provides a more efficient and flexible way to fetch and manipulate data from the server.
 
 ### 1. How does React handle context in component communication and sharing data between components?
