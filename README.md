@@ -14,52 +14,52 @@
 ### 4. What are the advantages of using functional components over class components in React?
 ***Answer:***  Functional components are simpler, easier to test, and have better performance due to the absence of life-cycle methods and unnecessary re-renders.
 
-### 1. How does React handle event handling?
+### 5. How does React handle event handling?
 ***Answer:***  React uses synthetic events to handle events consistently across different browsers. Event handlers are attached using JSX and can be defined inline or as separate functions.
 
-### 1. What is the virtual DOM in React?
+### 6. What is the virtual DOM in React?
 ***Answer:***  The virtual DOM is a lightweight copy of the actual DOM that React uses to optimize and speed up UI updates. React compares the virtual DOM with the real DOM and efficiently updates only the necessary parts.
 
-### 1. What is the difference between MongoDB and a traditional relational database?
+### 7. What is the difference between MongoDB and a traditional relational database?
 ***Answer:***  MongoDB is a NoSQL document-oriented database, while traditional relational databases use tables and SQL. MongoDB offers more flexibility in schema design, scalability, and horizontal scaling.
 
-### 1. How does MongoDB handle horizontal scaling for reads and writes?
+### 8. How does MongoDB handle horizontal scaling for reads and writes?
 ***Answer:***  MongoDB achieves horizontal scaling by using sharding, which distributes data across multiple servers or clusters. It allows for high read/write throughput and supports automatic data balancing.
 
-### 1. What is the difference between require and import in Node.js?
+### 9. What is the difference between require and import in Node.js?
 ***Answer:***  'require' is the common way to import modules in Node.js using CommonJS syntax, while 'import' is the ES6 syntax for importing modules. 'Import' supports more advanced features like tree shaking and static analysis.
 
-### 1. How does Node.js handle asynchronous programming?
+### 10. How does Node.js handle asynchronous programming?
 ***Answer:***  Node.js uses an event-driven, non-blocking I/O model, allowing multiple requests to be processed concurrently. It utilizes callbacks, promises, and async/await to handle asynchronous operations.
 
-### 1. What are the main security considerations when working with databases and APIs in web development?
+### 11. What are the main security considerations when working with databases and APIs in web development?
 ***Answer:***  Security considerations include protecting against SQL injections, implementing proper authentication and authorization mechanisms, securing API endpoints with encryption, and handling user input validation.
 
-### 1. How does Express.js handle routing in server-side applications?
+### 12. How does Express.js handle routing in server-side applications?
 ***Answer:***  Express.js provides a flexible routing system that allows developers to define routes, handle HTTP requests, and define middleware functions for processing requests and responses.
 
-### 1. Can you explain the concept of closures in JavaScript?
+### 13. Can you explain the concept of closures in JavaScript?
 ***Answer:***  Closures are functions that remember the environment in which they were created. They have access to variables and parameters of their outer functions, even after the outer function has finished executing.
 
-### 1. What are the differences between var, let, and const in JavaScript?
+### 14. What are the differences between var, let, and const in JavaScript?
 ***Answer:***  'var' is function-scoped and can be redeclared and reassigned. 'let' and 'const' are block-scoped, 'let' can be reassigned, while 'const' is a constant and cannot be reassigned.
 
-### 1. Can you explain the concept of RESTful APIs and how they are used in web development?
+### 15. Can you explain the concept of RESTful APIs and how they are used in web development?
 ***Answer:***  RESTful APIs are an architectural style for designing networked applications. They use standard HTTP methods (GET, POST, PUT, DELETE) to perform CRUD operations on resources and follow principles like statelessness and uniform interface.
 
-### 1. What are the advantages and disadvantages of using client-side rendering vs. server-side rendering?
+### 16. What are the advantages and disadvantages of using client-side rendering vs. server-side rendering?
 ***Answer:***  Client-side rendering provides a rich, interactive user experience but can have slower initial page load times. Server-side rendering provides faster initial rendering and better SEO but may be less interactive.
 
-### 1. How does package.json help manage dependencies in a Node.js project?
+### 17. How does package.json help manage dependencies in a Node.js project?
 ***Answer:***  package.json is a file that contains metadata about a Node.js project and its dependencies. It allows developers to specify and manage project dependencies, scripts, and other project details.
 
-### 1. Can you explain the concept of middleware in Express.js?
+### 18. Can you explain the concept of middleware in Express.js?
 ***Answer:***  Middleware functions in Express.js are functions that have access to the request and response objects. They can modify the request/response, perform additional processing, and pass control to the next middleware in the chain.
 
-### 1. How does React handle component lifecycle methods?
+### 19. How does React handle component lifecycle methods?
 ***Answer:***  React provides lifecycle methods that allow developers to hook into different stages of a component's life, such as mounting, updating, and unmounting. Examples include componentDidMount, componentDidUpdate, and componentWillUnmount.
 
-### 1. How does React handle component re-rendering and performance optimization?
+### 20. How does React handle component re-rendering and performance optimization?
 ***Answer:***  React uses a diffing algorithm to efficiently update only the necessary parts of the DOM when a component's state or props change. Developers can optimize performance using techniques like memoization and shouldComponentUpdate.
 
 ### 1. What are the advantages of using a NoSQL database like MongoDB?
