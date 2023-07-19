@@ -100,88 +100,88 @@ handle errors that occur in their child components. Error boundaries catch and h
 ### 32. Can you explain the concept of GraphQL and how it differs from traditional REST APIs?
 ***Answer:***  GraphQL is a query language for APIs and a runtime for executing those queries with existing data. Unlike traditional REST APIs, GraphQL allows clients to request only the specific data they need, reducing over-fetching and under-fetching of data. It provides a more efficient and flexible way to fetch and manipulate data from the server.
 
-### 1. How does React handle context in component communication and sharing data between components?
+### 33. How does React handle context in component communication and sharing data between components?
 ***Answer:***  React's Context API allows data to be shared across component hierarchies without explicit prop drilling. It enables components to access shared data or state without passing it through multiple levels of nesting. Context provides a convenient way to manage application-level state or share data that needs to be accessed by multiple components.
 
-### 1. What are the advantages and disadvantages of using Next.js for server-side rendering (SSR) in React applications?
+### 34. What are the advantages and disadvantages of using Next.js for server-side rendering (SSR) in React applications?
 ***Answer:***  Next.js is a popular framework for server-side rendering in React applications. It offers advantages like improved SEO, faster initial page loads, and better user experience. However, it introduces complexity and requires additional server-side configuration, which may not be necessary for all applications.
 
-### 1. Can you explain the concept of debouncing and throttling in JavaScript?
+### 35. Can you explain the concept of debouncing and throttling in JavaScript?
 ***Answer:***  Debouncing and throttling are techniques used to optimize event handling. Debouncing delays the execution of a function until after a specified time period has passed since the last invocation, while throttling limits the execution frequency of a function to a certain rate.
 
-### 1. How does the event loop work in JavaScript?
+### 36. How does the event loop work in JavaScript?
 ***Answer:***  The event loop is a mechanism in JavaScript that handles asynchronous operations. It continuously checks the call stack and the task queue, moving functions from the queue to the stack for execution, ensuring that the program remains responsive.
 
-### 1. Can you explain the concept of hoisting in JavaScript?
+### 37. Can you explain the concept of hoisting in JavaScript?
 ***Answer:***  Hoisting is a JavaScript behavior where variable and function declarations are moved to the top of their respective scopes during the compilation phase. However, only the declarations are hoisted, not the initializations.
 
-### 1. What is the purpose of a closure in JavaScript?
+### 38. What is the purpose of a closure in JavaScript?
 ***Answer:***  A closure is a function that has access to its own scope, the outer function's scope, and the global scope. It allows variables and functions to be accessed even after their outer function has finished executing, providing encapsulation and data privacy.
 
-### 1. What are the different ways to create objects in JavaScript?
+### 39. What are the different ways to create objects in JavaScript?
 ***Answer:***  Objects in JavaScript can be created using object literals, the new keyword with a constructor function, or with the Object.create() method.
 
-### 1. How does JavaScript handle inheritance and prototypal inheritance?
+### 40. How does JavaScript handle inheritance and prototypal inheritance?
 ***Answer:***  JavaScript uses prototypal inheritance, where objects can inherit properties and methods from other objects. Each object has an internal [[Prototype]] property that refers to its parent object or prototype. Inheritance is achieved by accessing properties and methods through the prototype chain.
 
-### 1. What are the differences between null and undefined in JavaScript?
+### 41. What are the differences between null and undefined in JavaScript?
 ***Answer:***  null represents the intentional absence of any object value, while undefined indicates the absence of a defined value. null is typically assigned by developers, while undefined is assigned by the JavaScript engine.
 
-### 1. How does event delegation work in JavaScript?
+### 42. How does event delegation work in JavaScript?
 ***Answer:***  Event delegation is a technique where a parent element handles events for its child elements. Instead of attaching event listeners to individual child elements, the event listener is attached to a parent element, and events are handled based on the event target.
 
-### 1. How does the this keyword work in JavaScript?
+### 43. How does the this keyword work in JavaScript?
 ***Answer:***  The this keyword refers to the object that the function is executed within. Its value is determined by the context in which the function is invoked, such as the object before the dot notation or the context provided by the bind(), call(), or apply() methods.
 
-### 1. What are the different ways to loop over an array in JavaScript?
+### 44. What are the different ways to loop over an array in JavaScript?
 ***Answer:***  JavaScript offers several methods to iterate over an array, including traditional for loops, forEach(), map(), filter(), reduce(), and newer methods like for...of and for...in loops.
 
-### 1. Can you explain the concept of event bubbling and event capturing in JavaScript?
+### 45. Can you explain the concept of event bubbling and event capturing in JavaScript?
 ***Answer:***  Event bubbling is the default behavior where an event triggered on a child element propagates upward through its parent elements. Event capturing is the opposite, where the event is captured at the parent level and then propagated downward to the target element.
 
-### 1. How does JavaScript handle asynchronous programming using callbacks?
+### 46. How does JavaScript handle asynchronous programming using callbacks?
 ***Answer:***  Callbacks are functions that are passed as arguments to other functions and are invoked asynchronously once a task is complete. They allow JavaScript to handle asynchronous operations without blocking the execution of other code.
 
-### 1. What are the differences between let, const, and var in JavaScript?
+### 47. What are the differences between let, const, and var in JavaScript?
 ***Answer:***  let and const are block-scoped and allow block-level declarations, while var is function-scoped. let and const have block-level scope and are not hoisted, whereas var is hoisted and has function-level scope.
 
-### 1. How does JavaScript handle event handling and propagation?
+### 48. How does JavaScript handle event handling and propagation?
 ***Answer:***  JavaScript uses event handlers to handle events triggered by user actions. Event propagation allows events to be handled at multiple levels, capturing the event from the parent elements or bubbling it up from the child elements.
 
-### 1. What are the differences between synchronous and asynchronous JavaScript?
+### 49. What are the differences between synchronous and asynchronous JavaScript?
 ***Answer:***  Synchronous JavaScript executes code sequentially, blocking other operations until a task is complete. Asynchronous JavaScript allows multiple tasks to run concurrently, without blocking the execution of other code, using callbacks, promises, or async/await.
 
-### 1. Can you explain the concept of function currying in JavaScript?
+### 50. Can you explain the concept of function currying in JavaScript?
 ***Answer:***  Function currying is the process of transforming a function with multiple arguments into a series of functions that take a single argument. It allows for partial application of arguments and can aid in code reusability and composition.
 
-### 1. What is the difference between local storage and session storage in JavaScript?
+### 51. What is the difference between local storage and session storage in JavaScript?
 ***Answer:***  Local storage and session storage are web storage mechanisms in JavaScript that allow data to be stored locally in the browser. The main difference is that local storage persists even after the browser is closed, while session storage is cleared when the browser session ends.
 
-### 1. How does JavaScript handle module imports and exports?
+### 52. How does JavaScript handle module imports and exports?
 ***Answer:***  JavaScript uses the import and export statements for module imports and exports. ES6 introduced the concept of modules, allowing developers to split code into separate files and selectively expose functions, objects, or variables to be used in other modules.
 
-### 1. What are the differences between == and === operators in JavaScript?
+### 53. What are the differences between == and === operators in JavaScript?
 ***Answer:***  The == operator performs loose equality comparison, allowing type coercion, while the === operator performs strict equality comparison, requiring both the value and the type to be identical.
 
-### 1. Can you explain the concept of event-driven programming in JavaScript?
+### 54. Can you explain the concept of event-driven programming in JavaScript?
 ***Answer:***  Event-driven programming is a programming paradigm where the flow of the program is determined by events triggered by user actions or system events. JavaScript, being a single-threaded language, uses event-driven programming to handle asynchronous operations and provide a responsive user experience.
 
-### 1. How does React perform reconciliation when rendering components?
+### 55. How does React perform reconciliation when rendering components?
 ***Answer:***  React performs reconciliation by comparing the new virtual DOM representation of components with the previous one. It identifies the differences between the two and updates only the necessary parts of the actual DOM. This process is efficient as it minimizes the number of updates needed, resulting in better performance.
 
-### 1. Explain the concept of aggregation in MongoDB and provide an example.
+### 56. Explain the concept of aggregation in MongoDB and provide an example.
 ***Answer:***  Aggregation in MongoDB is a pipeline-based framework used for processing and analyzing data from multiple documents in a collection. It allows for complex data manipulations, transformations, and aggregations using various stages and operators. An example of aggregation in MongoDB is calculating the average age of all users in a collection by using the group and avg operators.
 
-### 1. What are React hooks, and how do they differ from class components?
+### 57. What are React hooks, and how do they differ from class components?
 ***Answer:***  React hooks are functions introduced in React 16.8 that allow developers to use state and other React features without writing class components. Hooks provide a more straightforward and functional approach to managing state and side effects in React, making code more concise and reusable. They differ from class components as hooks can be used in functional components, promoting composition and reusability, while class components rely on lifecycle methods and have a different syntax.
 
-### 1. What are the different lifecycle methods in React and when are they invoked?
+### 58. What are the different lifecycle methods in React and when are they invoked?
 ***Answer:***  React provides several lifecycle methods that are invoked at different stages of a component's life. These methods include componentDidMount, componentDidUpdate, componentWillUnmount, and shouldComponentUpdate.
 
-### 1. How does React Router work for server-side rendering (SSR) in a React application?
+### 59. How does React Router work for server-side rendering (SSR) in a React application?
 ***Answer:***  React Router can be used with server-side rendering (SSR) frameworks like Next.js. React Router handles routing on both the client and server-side by matching the requested URL with the corresponding route and rendering the appropriate component. On the server-side, the matched component is rendered and sent as HTML to the client. On the client-side, React Router takes over and handles subsequent navigation within the application.
 
-### 1. Explain the concept of server-side rendering (SSR) and its advantages.
+### 60. Explain the concept of server-side rendering (SSR) and its advantages.
 ***Answer:***  Server-side rendering (SSR) is the process of rendering web pages on the server and sending them as HTML to the client. SSR provides faster time-to-first-paint, better accessibility, and search engine visibility compared to client-side rendering. It improves the perceived performance of an application by allowing the initial page load to contain pre-rendered HTML. However, SSR can introduce complexity and increased server load due to the need for server-side processing.
 
 ### 1. What are the differences between REST and GraphQL APIs?
