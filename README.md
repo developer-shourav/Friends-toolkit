@@ -184,13 +184,13 @@ handle errors that occur in their child components. Error boundaries catch and h
 ### 60. Explain the concept of server-side rendering (SSR) and its advantages.
 ***Answer:***  Server-side rendering (SSR) is the process of rendering web pages on the server and sending them as HTML to the client. SSR provides faster time-to-first-paint, better accessibility, and search engine visibility compared to client-side rendering. It improves the perceived performance of an application by allowing the initial page load to contain pre-rendered HTML. However, SSR can introduce complexity and increased server load due to the need for server-side processing.
 
-### 1. What are the differences between REST and GraphQL APIs?
+### 61. What are the differences between REST and GraphQL APIs?
 ***Answer:***  REST (Representational State Transfer) and GraphQL are different approaches to building APIs. REST APIs follow a resource-based architecture, where each endpoint represents a specific resource, and data is retrieved using HTTP methods. GraphQL, on the other hand, is a query language that allows clients to request specific data and shape the response based on their needs. It provides more flexibility and reduces over-fetching or under-fetching of data.
 
-### 1. How does React handle code splitting and lazy loading for optimizing bundle size?
+### 62. How does React handle code splitting and lazy loading for optimizing bundle size?
 ***Answer:***  Code splitting is the technique of breaking down a large bundle into smaller chunks to reduce initial loading times. React supports code splitting through dynamic imports and the use of React.lazy(). Dynamic imports allow components to be loaded asynchronously when needed. React.lazy() is a React-specific method that enables lazy loading of components, which means they are only loaded when they are actually required. This helps optimize bundle size and improves performance by loading only the necessary code.
 
-### 1. Can you explain the concept of higher-order functions in JavaScript and provide an example?
+### 63. Can you explain the concept of higher-order functions in JavaScript and provide an example?
 ***Answer:***  Higher-order functions are functions that can take other functions as arguments or return functions as their result. They enable code reusability and allow developers to create abstractions and compose functions.
 
 Example:
@@ -212,13 +212,13 @@ const loggedAdd = withLogger(add);
 console.log(loggedAdd(2, 3));  // Output: Calling function: add, Function result: 5
 In this example, withLogger is a higher-order function that takes a function fn as an argument and returns a new function. The returned function logs the name of the function being called and its result before returning it.
 
-### 1. How does Node.js handle file system operations?
+### 64. How does Node.js handle file system operations?
 ***Answer:***  Node.js provides a built-in module called fs that allows developers to interact with the file system. It offers various methods for performing file system operations like reading and writing files, creating directories, deleting files, and more. Some commonly used methods include fs.readFile(), fs.writeFile(), fs.mkdir(), and fs.unlink().
 
-### 1. What is the purpose of Webpack in a React application, and how does it work?
+### 65. What is the purpose of Webpack in a React application, and how does it work?
 ***Answer:***  Webpack is a popular module bundler for JavaScript applications, including React. It is used to bundle and optimize the application's assets, including JavaScript, CSS, and other static files. Webpack analyzes the application's dependency graph and creates a bundle that includes all the required modules. It can also apply various optimizations, such as code minification, chunk splitting, and caching, to improve performance and load times.
 
-### 1. Can you explain the concept of promises chaining in JavaScript and provide an example?
+### 66. Can you explain the concept of promises chaining in JavaScript and provide an example?
 ***Answer:***  Promises chaining is a technique used to execute multiple asynchronous operations in sequence. Promises allow us to handle asynchronous code in a more readable and manageable way.
 
 Example:
@@ -238,22 +238,22 @@ fetch('https://api.example.com/data')
 
 In this example, the fetch() function returns a promise that resolves to a response object. We can chain the .then() method to the promise to process the response data. If any errors occur during the fetch or data processing, the .catch() method is used to handle them.
 
-### 1. How does React handle handling form inputs and managing their state?
+### 67. How does React handle handling form inputs and managing their state?
 ***Answer:***  In React, form inputs can be managed using controlled components. The value of an input field is controlled by React state, and any changes to the input trigger an update to the state. This allows developers to have full control over the form state and perform validations or trigger actions accordingly.
 
-### 1. Explain the concept of memoization and how it can improve performance in JavaScript.
+### 68. Explain the concept of memoization and how it can improve performance in JavaScript.
 ***Answer:***  Memoization is a technique used to cache the results of expensive function calls and return the cached result when the same inputs occur again. It improves performance by avoiding redundant calculations.
 
 By storing the result of a function based on its input arguments, subsequent calls with the same arguments can retrieve the result from the cache instead of re-computing it. This is particularly useful for functions with expensive calculations or operations that can be reused.
 
-### 1. What are the different ways to style components in React?
+### 69. What are the different ways to style components in React?
 ***Answer:***  There are several ways to style components in React, including inline styles, CSS stylesheets, CSS-in-JS libraries like styled-components or Emotion, and CSS modules. Each approach has its advantages and is suitable for different scenarios. Inline styles provide component-level styling, CSS stylesheets allow for global styles, CSS-in-JS libraries offer a more encapsulated and component-oriented approach, and CSS modules enable local scoping of styles.
 
-### 1. How does MongoDB handle indexing and optimizing query performance?
+### 70. How does MongoDB handle indexing and optimizing query performance?
 ***Answer:***  MongoDB provides support for indexing to improve query performance. Indexes can be created on specific fields or combinations of fields to speed up queries. MongoDB uses B-tree indexes, which allow for efficient retrieval of data based on the indexed fields. By indexing frequently queried fields and using appropriate indexes, MongoDB can significantly enhance query performance.
 
-### 1. Can you explain the concept of serverless computing and its benefits?
+### 71. Can you explain the concept of serverless computing and its benefits?
 ***Answer:***  Serverless computing is a cloud computing execution model where developers can write and deploy code without having to worry about managing the underlying infrastructure. In a serverless architecture, the cloud provider handles server provisioning, scaling, and maintenance, allowing developers to focus solely on writing code. This model offers benefits like reduced operational overhead, automatic scalability, pay-per-use pricing, and faster time-to-market for applications.
 
-### 1. How does React handle code reusability and component composition?
+### 72. How does React handle code reusability and component composition?
 ***Answer:***  React promotes code reusability and component composition through its component-based architecture. Components can be reused throughout an application, allowing developers to create modular and encapsulated pieces of UI functionality. React encourages composition, where components can be combined together to build more complex and reusable UI elements. This approach promotes code organization, reusability, and maintainability.
